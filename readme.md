@@ -34,7 +34,7 @@
   TBD
 
   ## Screenshot
-  ![Screenshot](assets/images/Bro-Book.gif)
+  ![Screenshot](assets/images/screenshot.png)
 
   ## Features
   TBD
