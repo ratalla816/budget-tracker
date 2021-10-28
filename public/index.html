@@ -55,9 +55,42 @@ db.js
     
     <canvas id="myChart"></canvas>
   </div>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 py-5">
+          <div class="flex-center">
+            <!-- linkedin -->
+            <a href="https://www.linkedin.com/in/ratalla816/" target="_blank">
+              <img src="../assets/images/linked.svg" alt="Blue Linkedin logo with copyright mark"> 
+            </a>
+            <a href="https://github.com/ratalla816/" target="_blank">
+              <img src="../assets/images/githublogo.png" alt="Silver GitHub logo featuring a silouette of the OctoCat mascot">
+              </a>
+         </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="footer-copyright text-center py-3 text-white">
+      © 2021 Atalla Financial Services, LLC, Confidential and Proprietary. All Rights Reserved.
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="js/index.js"></script>
+  <script src="js/db.js"></script>
 </body>
-<!-- service worker goes here -->
+<script type="text/javascript">
+  (function() {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("./service-worker.js")
+        .then(() => console.log("Service Worker registered successfully."))
+        .catch(error =>
+          console.log("Service Worker registration failed:", error)
+        );
+    }
+  })();
+</script>
 </html>
