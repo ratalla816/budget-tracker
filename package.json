@@ -1,7 +1,7 @@
 {
   "name": "budget-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "![badge](https://img.shields.io/github/languages/top/ratalla816/budget-tracker)\r   <br> \r   ![badge](https://img.shields.io/github/languages/count/ratalla816/budget-tracker)\r   <br>\r   ![badge](https://img.shields.io/github/issues/ratalla816/budget-tracker)\r   <br>\r   ![badge](https://img.shields.io/github/issues-closed/ratalla816/budget-tracker)\r   <br>\r   ![badge](https://img.shields.io/github/last-commit/ratalla816/budget-tracker)\r   <br>\r   ![badge](https://img.shields.io/badge/license-MIT-important)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,3 +1,5 @@
+// *** starter code looks good - DON'T TOUCH *** //
+
 let transactions = [];
 let myChart;
 
