@@ -1,3 +1,5 @@
+// *** starter code looks good - DON'T TOUCH *** //
+
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
