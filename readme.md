@@ -41,7 +41,7 @@
   TBD
 
   ## Screenshot
-  ![Screenshot](assets/images/tbd.png)
+  ![Screenshot](assets/images/screenshot.png)
 
   ## Features
   TBD
