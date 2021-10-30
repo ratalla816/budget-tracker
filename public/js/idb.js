@@ -47,6 +47,7 @@ function uploadTransaction() {
         .then(response => response.json())
         .then(serverResponse => {
           if (serverResponse.message) {
+            //   need confirmation alert
             throw new Error(serverResponse);
           }
 
