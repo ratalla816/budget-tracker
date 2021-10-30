@@ -30,7 +30,9 @@ const FILES_TO_CACHE = [
     "/js/idb.js",
     "/js/index.js",
     "/index.html",
-    "/manifest.json"
+    "/manifest.json",
+    "/api/transaction",
+    "./js/api.js"
 
 ];
 
