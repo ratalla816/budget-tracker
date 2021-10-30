@@ -68,15 +68,12 @@
   * Press F12 to open dev tools
   * Under the Network tab there is a tab at the bottom of the window called "network conditions", click that tab, 
   and in the "network throttling" option please select "offline" from the dropdown menu. If you need help, please reference the walkthrough below. 
-  <br>
   ![Screenshot](assets/images/offlinevid.gif)
   <br>
   * Then proceed to the app and enter a couple transactions (see below)
-  <br>
   ![Screenshot](assets/images/transactionvid.gif)
   <br>
   * Now update the network conditions drop down to "no throttling" and refresh your browser. If the indexed DB is working properly the transactions you entered should still be listed!
-  <br>
   ![Screenshot](assets/images/successvid.gif)
 
   ## Contact:
