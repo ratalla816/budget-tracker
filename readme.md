@@ -76,15 +76,19 @@
   ![Testing](assets/images/offlinevid.gif)
 
   <br>
+
   * Then proceed to the app and enter a couple transactions (see below)
+
   <br>
 
   ![Testing](assets/images/transactionvid.gif)
 
   <br>
+
   * Now update the network conditions drop down to "no throttling" and refresh your browser. If the indexed DB is working properly the transactions you entered should still be listed!
-  <br>
   
+  <br>
+
   ![Testing](assets/images/successvid.gif)
 
   ## Contact:
