@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const compression = require("compression");
 
 const PORT = process.env.PORT || 3001;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget-tracker";
+// const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget-tracker";
 
 
 const app = express();
@@ -23,7 +23,7 @@ const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget-track
   mongoose.connect(MONGODB_URI, {  
   useFindAndModify: false,
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  // useUnifiedTopology: true
 });
 
 // routes
