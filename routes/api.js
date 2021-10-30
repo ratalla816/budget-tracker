@@ -32,10 +32,13 @@ router.get("/api/transaction", (req, res) => {
 });
 
 router.delete("/api/transaction", (req, res) => {
-  Transaction.remove({})
+    Transaction.remove({})
+
     .then(response => {
+      
       res.json(response);
     })
+
     .catch(err => {
       res.status(404).json(err);
     });
