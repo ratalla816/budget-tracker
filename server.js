@@ -1,4 +1,4 @@
-// *** starter code looks good - DON'T TOUCH *** //
+// !!! Starter code is good - Only update Mongoose connect !!! //
 
 const express = require("express");
 const logger = require("morgan");
