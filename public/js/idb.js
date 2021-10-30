@@ -48,6 +48,7 @@ function uploadTransaction() {
         .then(serverResponse => {
           if (serverResponse.message) {
             //   need confirmation alert
+            alert("Transactions entered while offline have been added to the database");
             throw new Error(serverResponse);
           }
 
@@ -55,7 +56,7 @@ function uploadTransaction() {
           const transactionObjectStore = transaction.objectStore('new_transaction');
           transactionObjectStore.clear();
 
-          alert("Transactions entered while offline have been added to the database");
+        
         })
         .catch(err => {
          

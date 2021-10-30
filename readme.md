@@ -54,7 +54,10 @@
   * IndexedDB for offline persistence 
     
   # Acknowledgements
-  Rob Atalla
+  * Rob Atalla
+  * Pizza Hunt - KU Coding Bootcamp, Module 18 Activity © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+  * Food Festival - KU Coding Bootcamp, Module 19 Activity © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
     
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-important)
@@ -69,15 +72,15 @@
   * Under the Network tab there is a tab at the bottom of the window called "network conditions", click that tab, 
   and in the "network throttling" option please select "offline" from the dropdown menu. If you need help, please reference the walkthrough below. 
   <br>
-  ![Testing](assets/images/offlinevid.gif)
+  ![Walkthrough](assets/images/offlinevid.gif)
   <br>
   * Then proceed to the app and enter a couple transactions (see below)
   <br>
-  ![Test](assets/images/transactionvid.gif)
+  ![Walkthrough](assets/images/transactionvid.gif)
   <br>
   * Now update the network conditions drop down to "no throttling" and refresh your browser. If the indexed DB is working properly the transactions you entered should still be listed!
   <br>
-  ![Testing](assets/images/successvid.gif)
+  ![Walkthrough](assets/images/successvid.gif)
 
   ## Contact:
   Holler at me! <a href="mailto:rob.atalla@robatalla816.com">rob.atalla@robatalla816.com</a>
