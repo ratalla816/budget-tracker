@@ -26,7 +26,7 @@
   ## Table of Contents
   - [Description](#description)
   - [Documentation](#documentation)
-  - [Usage](#usage)
+  - [Deployment](#deployment)
   - [Screenshot](#screenshot)
   - [Features](#features)
   - [Acknowledgements](#acknowledgements)
@@ -35,17 +35,24 @@
   - [Contact](#contact)
 
   ## Documentation
-  TBD
+  * MongoDB Atlas <https://docs.atlas.mongodb.com/getting-started/>
+  * Lite Server <https://www.npmjs.com/package/lite-server>
+  * Express <https://www.npmjs.com/package/express/v/4.17.1>
+  * Mongoose <https://www.npmjs.com/package/mongoose/v/5.5.15>
+  * Morgan <https://www.npmjs.com/package/morgan>
+  * Heroku <https://devcenter.heroku.com/>
  
-  ## Usage
-  TBD
+  ## Deployment
+  This app is deployed using Heroku <https://ratalla816-budget-tracker.herokuapp.com/>
 
   ## Screenshot
-  ![Screenshot](assets/images/screenshot.png)
+  ![Screenshot](assets/images/budgetvid.gif)
 
   ## Features
-  TBD
-  
+  * service worker
+  * manifest.json
+  * IndexedDB for offline persistence 
+    
   # Acknowledgements
   Rob Atalla
     
@@ -56,7 +63,7 @@
 
 
   ## Testing
-  TBD
+  Not available
 
   ## Contact:
   Holler at me! <a href="mailto:rob.atalla@robatalla816.com">rob.atalla@robatalla816.com</a>
