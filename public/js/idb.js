@@ -54,7 +54,8 @@ function uploadTransaction() {
           const transaction = db.transaction(['new_transaction'], 'readwrite');
           const transactionObjectStore = transaction.objectStore('new_transaction');
           transactionObjectStore.clear();
-          
+                    
+          alert('Transactions entered while offline have been added to the database');
         
         })
         .catch(err => {
@@ -66,5 +67,4 @@ function uploadTransaction() {
 }
 
 window.addEventListener('online', uploadTransaction);
-//   need confirmation alert
-alert("Transactions entered while offline have been added to the database");
+
